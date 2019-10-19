@@ -1,3 +1,7 @@
+# br >>> dat
+sudo apt install brotli
+brotli --decompress system.new.dat.br -o system.new.dat
+
 # sdat2img
 Convert sparse Android data image (.dat) into filesystem ext4 image (.img)
 
